@@ -1,0 +1,70 @@
+#+title: cd-w.github.io
+#+author: Caleb Watson
+#+hugo_base_dir: .
+#+options: ':nil -:nil ^:{} num:nil toc:nil \n:nil tex:t creator:t author:nil
+# #+todo: TODO(t) CANCELLED(c) |  WIP(w) PUBLISHED(p)
+#+hugo_auto_set_lastmod: %Y-%m-%d
+#+macro: imageclick [[file:./static/images/$1][file:/images/$1]]
+#+hugo_front_matter_format: toml
+# #+date: <2022-09-23 Fri>
+# #+options: creator:t author:nil
+# #+options: tex:t
+# #+setupfile: doc-setupfile.org
+# #+bibliography: ../test/site/content-org/cite/bib/orgcite.bib
+
+* Content
+** Homepage
+:PROPERTIES:
+:EXPORT_TITLE: home
+:EXPORT_FILE_NAME: _index
+:EXPORT_HUGO_TYPE: homepage
+:EXPORT_HUGO_SECTION: .
+:EXPORT_HUGO_MENU: :menu "1.main" :title "Home"
+:EXPORT_OPTIONS: tex:dvisvgm
+:CUSTOM_ID: main
+:END:
+
+Chess hasn't been updated in almost 200 years and it's obvious the devs have abandoned it. The greedy creators took your money and laughed all the way to the bank.
+
+I remember back in 705 AD when chess was fun. Then they started adding stupid features no one wanted like "Castling" and "En Passant" instead of listening to player feedback and fixing game-breaking bugs. I've been complaining for YEARS about the collision-detection glitch with the horsey. The "clipping-thru-pieces" bug has been abused to death and the lazy devs refuse to fix it.
+
+Don't support this awful behavior and boycott this company.
+
+*** Blog
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: blog
+:EXPORT_HUGO_NAME:
+:EXPORT_HUGO_PUBLISHDATE:
+:EXPORT_FILE_NAME: blog-index
+:END:
+Blog posts index
+**** Test Post
+:PROPERTIES:
+# :EXPORT_HUGO_NAME: test-post
+:EXPORT_FILE_NAME: test-post
+:EXPORT_HUGO_PUBLISHDATE: 2022-10-27
+:END:
+
+I'm posting!
+
+*** Testing pages
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: test
+:EXPORT_FILE_NAME: test-index
+:EXPORT_HUGO_TYPE: test
+:EXPORT_HUGO_NAME:
+:EXPORT_HUGO_PUBLISHDATE:
+:END:
+**** Test Page
+:PROPERTIES:
+# :EXPORT_TITLE: Test Page
+:EXPORT_FILE_NAME: test-page
+# :EXPORT_HUGO_TYPE: debug
+:EXPORT_HUGO_PUBLISHDATE: 2022-10-27
+# :EXPORT_HUGO_MENU: :menu "1.main" :title "Test Page"
+:EXPORT_OPTIONS: tex:dvisvgm
+# :EXPORT_AUTHOR: nil
+# :EXPORT_HUGO_SECTION: tests
+:END:
+
+Given $a=1$ and $b=2$, then $a \neq b$.
