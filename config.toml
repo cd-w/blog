@@ -1,0 +1,4 @@
+baseURL = "https://watsonism.github.io/"
+languageCode = "en-us"
+title = "w a t s o n"
+theme = "onyx"
