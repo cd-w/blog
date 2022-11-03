@@ -4,7 +4,9 @@
 #+hugo_base_dir: .
 #+hugo_section: doc
 
-# #+options: creator:t author:nil
+#+options: creator:t author:nil
+
+# #+setupfile: doc-setupfile.org
 
 #+options: ':nil -:nil ^:{} num:nil toc:nil \n:nil tex:t creator:t author:nil
 
@@ -17,7 +19,6 @@
 # #+todo: TODO(t) CANCELLED(c) |  WIP(w) PUBLISHED(p)
 # #+date: <2022-09-23 Fri>
 # #+options: tex:t
-# #+setupfile: doc-setupfile.org
 # #+bibliography: ../test/site/content-org/cite/bib/orgcite.bib
 
 * Homepage
@@ -25,7 +26,7 @@
 :EXPORT_TITLE: home
 :EXPORT_FILE_NAME: _index
 :EXPORT_HUGO_TYPE: homepage
-:EXPORT_HUGO_SECTION: .
+:EXPORT_HUGO_SECTION: /
 :EXPORT_HUGO_MENU: :menu "1.main" :title "Home"
 :EXPORT_OPTIONS: tex:dvisvgm
 :CUSTOM_ID: main
