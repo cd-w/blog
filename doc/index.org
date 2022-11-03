@@ -1,4 +1,4 @@
-#+title: cd-w.github.io
+#+title: watsonism.github.io
 #+author: Caleb Watson
 
 #+hugo_base_dir: .
