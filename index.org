@@ -1,19 +1,26 @@
-#+TITLE: cd-w.github.io
-#+AUTHOR: Caleb Watson
-#+HUGO_BASE_DIR: .
-#+OPTIONS: ':NIL -:NIL ^:{} NUM:NIL TOC:NIL \N:NIL TEX:T CREATOR:T AUTHOR:NIL
-#+HUGO_AUTO_SET_LASTMOD: %Y-%M-%D
-#+MACRO: IMAGECLICK [[FILE:./STATIC/IMAGES/$1][FILE:/IMAGES/$1]]
-#+HUGO_FRONT_MATTER_FORMAT: TOML
-# #+TODO: TODO(T) CANCELLED(C) |  WIP(W) PUBLISHED(P)
-# #+DATE: <2022-09-23 FRI>
-# #+OPTIONS: CREATOR:T AUTHOR:NIL
-# #+OPTIONS: TEX:T
-# #+SETUPFILE: DOC-SETUPFILE.ORG
-# #+BIBLIOGRAPHY: ../TEST/SITE/CONTENT-ORG/CITE/BIB/ORGCITE.BIB
+#+title: cd-w.github.io
+#+author: Caleb Watson
 
-* Content
-** Homepage
+#+hugo_base_dir: .
+#+hugo_section: doc
+
+# #+options: creator:t author:nil
+
+#+options: ':nil -:nil ^:{} num:nil toc:nil \n:nil tex:t creator:t author:nil
+
+#+hugo_auto_set_lastmod: %Y-%m-%d
+
+#+macro: imageclick [[file:./static/images/$1][file:/images/$1]]
+
+#+hugo_front_matter_format: toml
+
+# #+todo: TODO(t) CANCELLED(c) |  WIP(w) PUBLISHED(p)
+# #+date: <2022-09-23 Fri>
+# #+options: tex:t
+# #+setupfile: doc-setupfile.org
+# #+bibliography: ../test/site/content-org/cite/bib/orgcite.bib
+
+* Homepage
 :PROPERTIES:
 :EXPORT_TITLE: home
 :EXPORT_FILE_NAME: _index
@@ -21,6 +28,7 @@
 :EXPORT_HUGO_SECTION: .
 :EXPORT_HUGO_MENU: :menu "1.main" :title "Home"
 :EXPORT_OPTIONS: tex:dvisvgm
+:CUSTOM_ID: main
 :END:
 
 Chess hasn't been updated in almost 200 years and it's obvious the devs have abandoned it. The greedy creators took your money and laughed all the way to the bank.
@@ -29,24 +37,24 @@ I remember back in 705 AD when chess was fun. Then they started adding stupid fe
 
 Don't support this awful behavior and boycott this company.
 
-*** Blog
+** Blog
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: blog
+:EXPORT_FILE_NAME: blog-index
 :EXPORT_HUGO_NAME:
 :EXPORT_HUGO_PUBLISHDATE:
-:EXPORT_FILE_NAME: blog-index
 :END:
 Blog posts index
-**** Test Post
+*** Test Post
 :PROPERTIES:
-# :EXPORT_HUGO_NAME: test-post
 :EXPORT_FILE_NAME: test-post
 :EXPORT_HUGO_PUBLISHDATE: 2022-10-27
+# :EXPORT_HUGO_NAME: test-post
 :END:
 
 I'm posting!
 
-*** Testing pages
+** Testing pages
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: test
 :EXPORT_FILE_NAME: test-index
@@ -54,14 +62,14 @@ I'm posting!
 :EXPORT_HUGO_NAME:
 :EXPORT_HUGO_PUBLISHDATE:
 :END:
-**** Test Page
+*** Test Page
 :PROPERTIES:
-# :EXPORT_TITLE: Test Page
 :EXPORT_FILE_NAME: test-page
-# :EXPORT_HUGO_TYPE: debug
 :EXPORT_HUGO_PUBLISHDATE: 2022-10-27
-# :EXPORT_HUGO_MENU: :menu "1.main" :title "Test Page"
 :EXPORT_OPTIONS: tex:dvisvgm
+# :EXPORT_TITLE: Test Page
+# :EXPORT_HUGO_TYPE: debug
+# :EXPORT_HUGO_MENU: :menu "1.main" :title "Test Page"
 # :EXPORT_AUTHOR: nil
 # :EXPORT_HUGO_SECTION: tests
 :END:
