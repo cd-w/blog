@@ -1,8 +1,0 @@
-{{ define "main" }}
-
-{{ range where site.Pages "Type" "homepage" }}
-    <h1>{{ .Title }}</h1>
-    {{ partial "headline-hash.html" .Content }}
-{{ end }}
-
-{{ end }}

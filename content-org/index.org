@@ -1,8 +1,8 @@
 #+title: watsonism.github.io
 #+author: Caleb Watson
 
-#+hugo_base_dir: .
-#+hugo_section: doc
+#+hugo_base_dir: ../
+# #+hugo_section:
 
 #+options: creator:t author:nil
 
@@ -46,7 +46,7 @@ Don't support this awful behavior and boycott this company.
 :EXPORT_HUGO_PUBLISHDATE:
 :END:
 Blog posts index
-*** Test Post
+*** Test Blog Post
 :PROPERTIES:
 :EXPORT_FILE_NAME: test-post
 :EXPORT_HUGO_PUBLISHDATE: 2022-10-27
