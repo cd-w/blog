@@ -1,7 +1,7 @@
 +++
 title = "Testing pages"
-lastmod = 2022-10-27T18:55:21-05:00
-type = "homepage"
+lastmod = 2022-10-27T23:28:34-05:00
+type = "test"
 draft = false
 creator = "Emacs 28.2 (Org mode 9.6 + ox-hugo)"
 [menu]
@@ -14,7 +14,7 @@ creator = "Emacs 28.2 (Org mode 9.6 + ox-hugo)"
 ## Test Page {#test-page}
 
 :EXPORT_FILE_NAME: test-page
-:EXPORT_HUGO_TYPE: debug
+
 :EXPORT_HUGO_PUBLISHDATE: 2022-10-27
 
 :EXPORT_OPTIONS: tex:dvisvgm

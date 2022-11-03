@@ -1,6 +1,6 @@
 +++
 title = "Blog"
-lastmod = 2022-10-27T18:55:20-05:00
+lastmod = 2022-10-27T23:28:34-05:00
 type = "homepage"
 draft = false
 creator = "Emacs 28.2 (Org mode 9.6 + ox-hugo)"

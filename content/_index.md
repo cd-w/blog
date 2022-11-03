@@ -1,6 +1,6 @@
 +++
 title = "home"
-lastmod = 2022-10-27T18:55:20-05:00
+lastmod = 2022-10-27T23:20:03-05:00
 type = "homepage"
 draft = false
 creator = "Emacs 28.2 (Org mode 9.6 + ox-hugo)"
@@ -37,7 +37,7 @@ I'm posting!
 ### Test Page {#test-page}
 
 :EXPORT_FILE_NAME: test-page
-:EXPORT_HUGO_TYPE: debug
+
 :EXPORT_HUGO_PUBLISHDATE: 2022-10-27
 
 :EXPORT_OPTIONS: tex:dvisvgm
