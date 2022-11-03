@@ -23,13 +23,13 @@
 
 * Homepage
 :PROPERTIES:
-:EXPORT_TITLE: home
+:EXPORT_TITLE: Watsonism
 :EXPORT_FILE_NAME: _index
 :EXPORT_HUGO_TYPE: homepage
 :EXPORT_HUGO_SECTION: /
-:EXPORT_HUGO_MENU: :menu "1.main" :title "Home"
-:EXPORT_OPTIONS: tex:dvisvgm
+:EXPORT_HUGO_MENU: :menu "1.main" :title "Homepage"
 :CUSTOM_ID: main
+:EXPORT_OPTIONS: tex:dvisvgm
 :END:
 
 Chess hasn't been updated in almost 200 years and it's obvious the devs have abandoned it. The greedy creators took your money and laughed all the way to the bank.
